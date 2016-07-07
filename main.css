@@ -33,7 +33,7 @@ header p {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image: url('background.png'); 
+	background-image: url('background.jpg'); 
 	/* 
 	https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Space/Panorama
 	https://commons.wikimedia.org/wiki/File:360-degree_Panorama_of_the_Southern_Sky_edit.jpg
