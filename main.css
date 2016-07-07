@@ -1,0 +1,74 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	padding: 15px 0;
+	/* If the margin or padding property has two values, the first value concerns top and bottom margins while
+	the second value concerns left and right margins. 0 is default margin and padding of a header element. */
+}
+
+header .row {
+	display: flex; /* This makes the h1 and nav elements have the same height. */
+	align-items: center; /* This centers the elements vertically. Since nav elements are smaller they will be centered vertically with respect to h1. */
+}
+
+header h1 {
+	margin: 0; /* Removes h1 elements' default margins. */
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end; /* With the previous property, this aligns the nav elements horizontally. */
+}
+
+header p {
+	margin: 0; /* Remove p elements' default margins. */
+	padding: 0 20px;
+}
+
+
+
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image: url('background.png'); 
+	/* 
+	https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Space/Panorama
+	https://commons.wikimedia.org/wiki/File:360-degree_Panorama_of_the_Southern_Sky_edit.jpg
+	*/
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+
+.jumbotron h2 {
+	margin: 0;
+	color: #fff;
+}
+
+.jumbotron h3 {
+	margin: 0 0 20px 0;
+	color: #fff;
+}
+
+
+/* In Progress (add border-style: solid; to every element) */
+footer {
+	padding: 50px 0 15px 0;
+}
+
+footer .row {
+	display: flex;
+	align-items: center;
+}
+
+footer .col-sm-8 {
+	display: flex;
+  	justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+}
